@@ -1,0 +1,7 @@
+header img {
+    width: 100%;
+}
+
+header img:first-child {
+    height: 50px;
+}
