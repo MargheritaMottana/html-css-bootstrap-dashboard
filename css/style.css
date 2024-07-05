@@ -45,7 +45,7 @@ aside {
 }
 
 /* secttion */
-main section {
+main #central-section {
     width: calc(100% - var(--aside-width));
 }
 
