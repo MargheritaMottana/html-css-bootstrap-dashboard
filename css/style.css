@@ -57,10 +57,14 @@ main .btn-outline-secondary {
 }
 
 main table,
-main .form-check-label {
-    font-size: small;
+main .form-check-label,
+main .accordion-button,
+main .accordion-body,
+main .card-text,
+main .list-group-item,
+main .card-link {
+    font-size: 0.9rem;
 }
-
 
 /* 
 RESPONSIVE 
