@@ -2,20 +2,19 @@
 GENERAL 
 */
 
+img {
+    width: 100%;
+}
+
 :root {
     --header-height: 70px;
     --aside-width: 70px;
 }
 
-
 /* HEADER */
 
 header {
     height: var(--header-height);
-}
-
-header img {
-    width: 100%;
 }
 
 header img:first-child {
@@ -48,6 +47,20 @@ aside {
 main #central-section {
     width: calc(100% - var(--aside-width));
 }
+
+main img {
+    width: 30px;
+}
+
+main .btn-outline-secondary {
+    font-size: small;
+}
+
+main table,
+main .form-check-label {
+    font-size: small;
+}
+
 
 /* 
 RESPONSIVE 
